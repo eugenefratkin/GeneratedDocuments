@@ -61,14 +61,8 @@ graph LR
     TarunB --> VivekB["Vivek Bolajwar"]
 
     %%------------------  RENE BORM  ------------------
-    ReneB --> NayanaA["Nayana Aher"]
-    ReneB --> DebankarB["Debankar Banerjee"]
-    ReneB --> VinayakB["Vinayak Bhat"]
-    ReneB --> PappuC["Pappu Kumar Chaudhary"]
-    ReneB --> ShilpiM["Shilpi Mittal"]
-    ReneB --> VaibhavP["Vaibhav Pandey"]
-    ReneB --> SharadS["Sharad Sharma"]
-    ReneB --> ManishT["Manish Torma"]
+    %% (No ICs explicitly shown in org image – placeholder)
+    ReneB --> RB_P1["<i>ICs TBD</i>"]
 
     %%------------------  SATYA DUGGIRRALA  ------------------
     %% (No ICs listed in image – placeholder)
