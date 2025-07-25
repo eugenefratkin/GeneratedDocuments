@@ -33,7 +33,7 @@ _This section captures logistics, orientation sessions, and early introductions 
 ### 2.1 Organizational Chart — Agentforce / Search & Intelligence
 
 ```mermaid
-graph TD
+graph LR
     %% Root
     VP["VP Engineering\nEugene Fratkin"]
 
