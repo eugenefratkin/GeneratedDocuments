@@ -175,7 +175,7 @@ graph LR
 ### 2.2 Key Insights  
 - Organization spans **65 ICs and 8 managers** across US, India, and Germany.  
 - Deep expertise in Search, E-commerce merchandising, and Data-intelligence platforms.  
-- **21 open headcount** prioritized for infra and AI-driven search initiatives.  
+ **2 open headcount** (1 Manager, 1 IC) yet to be hired.  
 
 ---
 
@@ -190,9 +190,8 @@ graph LR
 | Area | Observation | Potential Impact |
 |------|-------------|------------------|
 | Technical Debt | Legacy monolith modules remain critical-path | Slows feature velocity |
-| Hiring | 21 open roles across SRE & ML search | Reliability risk / limited bandwidth |
 | Documentation | Limited runbooks for on-call rotations | Longer MTTR |
-
+| Hiring | 2 open roles (1 Mgr, 1 IC) across the org | Reliability risk / limited bandwidth |
 ### 3.3 Immediate Next Steps  
 1. Complete 1:1s with all direct and skip-level managers (within 2 weeks).  
 2. Publish engineering vision & FY OKRs (within 30 days).  
