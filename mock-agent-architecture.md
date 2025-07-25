@@ -1,3 +1,8 @@
+# Mock Agent Architecture
+
+This diagram illustrates the overall agent system with an explicit Retrieval-Augmented Generation (RAG) pipeline.
+
+```mermaid
 flowchart TD
     subgraph UI["User Interface Layer"]
         UI_Web["Web Interface"]
@@ -109,3 +114,5 @@ flowchart TD
     class ResponseGen,ContentGenerator,Formatter,QualityChecker,Personalizer responseColor
     class RAG,RAG_OpenSearch,RAG_VectorDB,RAG_RelDB,RAG_Reranker,RAG_Eval,RAG_Feedback ragColor
     class User userColor
+
+```
