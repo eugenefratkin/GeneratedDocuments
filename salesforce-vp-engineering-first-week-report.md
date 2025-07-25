@@ -46,19 +46,8 @@ graph LR
     VP --> LakshmiP["Sr Mgr • Lakshmi Reddy Papudippu"]
 
     %%------------------  TARUNDEEP BATRA  ------------------
-    TarunB --> MarcelB["Marcel Beck"]
-    TarunB --> FedericoD["Federico Donnarumma"]
-    TarunB --> TinoG["Tino Glaeser"]
-    TarunB --> XinjieH["Xinjie Hao"]
-    TarunB --> DilipP["Dilip Patel"]
-    TarunB --> AkshayR["Akshay Rajul"]
-    TarunB --> AshutoshR["Ashutosh Ravi"]
-    TarunB --> AndrewT["Andrew Tickard"]
-    TarunB --> YuanSh["Yuanchern Shih"]
-    TarunB --> ChrisW["Chris Wang"]
-    TarunB --> KannanA["Kannan Alagar-raj"]
-    TarunB --> BorisA["Boris Aleksandrovsky"]
-    TarunB --> VivekB["Vivek Bolajwar"]
+    %% (No ICs explicitly shown in org image – placeholder)
+    TarunB --> TB_P1["<i>ICs TBD</i>"]
 
     %%------------------  RENE BORM  ------------------
     %% (No ICs explicitly shown in org image – placeholder)
