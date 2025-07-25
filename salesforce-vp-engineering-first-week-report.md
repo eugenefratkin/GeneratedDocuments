@@ -34,63 +34,18 @@ _This section captures logistics, orientation sessions, and early introductions 
 
 ```mermaid
 graph LR
-    %% Root
-    VP["VP Engineering\nEugene Fratkin"]
+    %%------------------  ROOT  ------------------
+    VP["VP Engineering<br/>Eugene Fratkin"]
 
-    %% Directs
-    VP --> SumK["Sr Mgr • Sumanth Kondakindi"]
-    VP --> BrenH["Director • Brendon Hatch"]
-    VP --> LakshmiP["Sr Mgr • Lakshmi Reddy Papudippu"]
-    VP --> ReneB["Lead • Rene Borm"]
+    %%------------------  DIRECT REPORTS  ------------------
     VP --> TarunB["Architect • Tarundeep Batra"]
-    VP --> ColinB["Architect • Colin Brazeau"]
+    VP --> ReneB["Lead • Rene Borm"]
+    VP --> SatyaD["Lead • Satya Duggirrala"]
+    VP --> BrenH["Director • Brendon Hatch"]
+    VP --> SumK["Sr Mgr • Sumanth Kondakindi"]
+    VP --> LakshmiP["Sr Mgr • Lakshmi Reddy Papudippu"]
 
-    %% Sumanth Kondakindi org
-    SumK --> ZaraC["Zara Chiara Clark"]
-    SumK --> CarlosD["Carlos De La Torre"]
-    SumK --> AndrewH["Andrew Howe"]
-    SumK --> SantoshK["Santhosh Kumar KRS"]
-    SumK --> SohiniM["Sohini Majumdar"]
-    SumK --> NavidM["Navid Mehrdad"]
-    SumK --> VikasK["Vikas Kumar"]
-    SumK --> JohnL["John Legelis"]
-    SumK --> ManikaM["Manika Mehta"]
-    SumK --> AtulR["Atul Ranjan"]
-    SumK --> LitoS["Lito Santana"]
-    SumK --> HuaS["HuaSheng Su"]
-
-    %% Brendon Hatch – CIP
-    BrenH --> LesterG["Lester Garcia Sierra"]
-    BrenH --> AvinashK["Avinash Kasipathy"]
-    BrenH --> VijayantiK["Vijayanti Kothandaraman"]
-    BrenH --> ManeshL["Manesh Kumar Lohano"]
-    BrenH --> JhalakM["Jhalak Mahansaria"]
-    BrenH --> AjayS["Ajay Singh"]
-    BrenH --> SamarthU["Samarth Urs"]
-
-    %% Lakshmi Reddy Papudippu – Product Discovery
-    LakshmiP --> MalvikaC["Malvika Choudhary"]
-    LakshmiP --> MohammadH["Mohammad Hussain"]
-    LakshmiP --> AshutoshJ["Ashutosh Jain"]
-    LakshmiP --> GauravK["Gaurav Khengar"]
-    LakshmiP --> SoniaK["Sonia Kale"]
-    LakshmiP --> RomitK["Romit Kumar"]
-    LakshmiP --> SowmyaP["Sowmya Pittala"]
-    LakshmiP --> NeeleshJ["Neelesh Jayour"]
-    LakshmiP --> VikashS["Vikash Sharma"]
-    LakshmiP --> PuneetT["Punit Tripathi"]
-
-    %% Rene Borm – E-com / Chatty
-    ReneB --> NayanaA["Nayana Aher"]
-    ReneB --> DebankarB["Debankar Banerjee"]
-    ReneB --> VinayakB["Vinayak Bhat"]
-    ReneB --> PappuC["Pappu Kumar Chaudhary"]
-    ReneB --> ShilpiM["Shilpi Mittal"]
-    ReneB --> VaibhavP["Vaibhav Pandey"]
-    ReneB --> SharadS["Sharad Sharma"]
-    ReneB --> ManishT["Manish Torma"]
-
-    %% Tarundeep Batra – Core Search
+    %%------------------  TARUNDEEP BATRA  ------------------
     TarunB --> MarcelB["Marcel Beck"]
     TarunB --> FedericoD["Federico Donnarumma"]
     TarunB --> TinoG["Tino Glaeser"]
@@ -101,17 +56,142 @@ graph LR
     TarunB --> AndrewT["Andrew Tickard"]
     TarunB --> YuanSh["Yuanchern Shih"]
     TarunB --> ChrisW["Chris Wang"]
-    TarunB --> KannanA["Kannan Alagar"]
+    TarunB --> KannanA["Kannan Alagar-raj"]
+    TarunB --> BorisA["Boris Aleksandrovsky"]
+    TarunB --> VivekB["Vivek Bolajwar"]
 
-    %% Styling
+    %%------------------  RENE BORM  ------------------
+    ReneB --> NayanaA["Nayana Aher"]
+    ReneB --> DebankarB["Debankar Banerjee"]
+    ReneB --> VinayakB["Vinayak Bhat"]
+    ReneB --> PappuC["Pappu Kumar Chaudhary"]
+    ReneB --> ShilpiM["Shilpi Mittal"]
+    ReneB --> VaibhavP["Vaibhav Pandey"]
+    ReneB --> SharadS["Sharad Sharma"]
+    ReneB --> ManishT["Manish Torma"]
+
+    %%------------------  SATYA DUGGIRRALA  ------------------
+    %% (No ICs listed in image – placeholder)
+    SatyaD --> SD_P1["<i>ICs TBD</i>"]
+
+    %%------------------  BRENDON HATCH – CIP  ------------------
+    BrenH --> LesterG["Lester Garcia Sierra"]
+    BrenH --> AvinashK["Avinash Kasipathy"]
+    BrenH --> VijayantiK["Vijayanti Kothandaraman"]
+    BrenH --> ManeshL["Manesh Kumar Lohano"]
+    BrenH --> JhalakM["Jhalak Mahansaria"]
+    BrenH --> AjayS["Ajay Singh"]
+    BrenH --> SamarthU["Samarth Urs"]
+
+    %%------------------  LAKSHMI REDDY PAPUDIPPU  ------------------
+    LakshmiP --> MalvikaC["Malvika Choudhary"]
+    LakshmiP --> MohammadH["Mohammad Hussain"]
+    LakshmiP --> AshutoshJ["Ashutosh Jain"]
+    LakshmiP --> GauravK["Gaurav Khengar"]
+    LakshmiP --> SoniaK["Sonia Kale"]
+    LakshmiP --> RomitK["Romit Kumar"]
+    LakshmiP --> SowmyaP["Sowmya Pittala"]
+    LakshmiP --> NeeleshJ["Neelesh Jayour"]
+    LakshmiP --> VikashS["Vikash Sharma"]
+    LakshmiP --> PuneetT["Punit Tripathi"]
+    LakshmiP --> StefanP["Stefan Piesche"]
+    LakshmiP --> BalaR["Bala Ramakrishnan"]
+    LakshmiP --> SakthivelR["Sakthivel Ramsamy"]
+    LakshmiP --> PhilippeR["Philippe Riand"]
+    LakshmiP --> BeckyS["Becky Schoen"]
+    LakshmiP --> ArpitS["Arpit Shah"]
+    LakshmiP --> RaviS["Ravi Shankar"]
+    LakshmiP --> BhumikaS["Bhumika Sharma"]
+    LakshmiP --> BenSt["Ben Stice"]
+    LakshmiP --> MattVW["Matthew Van Wely"]
+
+    %%------------------  SUMANTH KONDAKINDI  ------------------
+    %% Managers
+    SumK --> ColinB["Mgr • Colin Brazeau"]
+    SumK --> ZaraC["Mgr • Zara Chiara Clark"]
+    SumK --> CarlosD["Mgr • Carlos De La Torre"]
+    SumK --> AndrewH["Mgr • Andrew Howe"]
+    SumK --> SantoshK["Mgr • Santhosh Kumar KRS"]
+    SumK --> SohiniM["Mgr • Sohini Majumdar"]
+    SumK --> VikasK["Mgr • Vikas Kumar"]
+    SumK --> NavidM["Mgr • Navid Mehrdad"]
+    SumK --> AtulR["Mgr • Atul Ranjan"]
+    SumK --> JohnL["Mgr • John Legelis"]
+    SumK --> LitoS["Mgr • Lito Santana"]
+    SumK --> ManikaM["Mgr • Manika Mehta"]
+    SumK --> HuaS["Mgr • HuaSheng Su"]
+
+        %% ---- Colin Brazeau team
+        ColinB --> EdaA["Eda Aslanbabe"]
+        ColinB --> RohitA["Rohit Awate"]
+        ColinB --> ChrisC["Christopher Cordova"]
+        ColinB --> VashiD["Vashi Dhankar"]
+        ColinB --> ChristabelE["Christabel Escarez"]
+        ColinB --> KristinaK["Kristina Kraft"]
+        ColinB --> EricL["Eric Lim"]
+        ColinB --> TejasN["Tejas Nadkarni"]
+        ColinB --> DenizT["Deniz Turkapcar"]
+        ColinB --> JenniferY["Jennifer Yang"]
+        ColinB --> AnnZ["Ann Zhou"]
+
+        %% ---- Zara Chiara Clark team
+        ZaraC --> AndrewG["Andrew Ghazouli"]
+        ZaraC --> MetinK["Metin Kilic"]
+        ZaraC --> JohnMc["John McGouty"]
+        ZaraC --> SnehaN["Sneha Nair"]
+        ZaraC --> AkshayS["Akshay Kumar Sridharan"]
+        ZaraC --> XiaoY["Xiaojing Yan"]
+
+        %% ---- Sohini Majumdar team
+        SohiniM --> SaiT["Sai Surya Teja Kemburu"]
+        SohiniM --> DivyaM["Divya Maurya"]
+        SohiniM --> NikhilM["Nikhil Maurya"]
+        SohiniM --> SaiA["Sai Aman Reddy"]
+        SohiniM --> PriyaS["Priya Singh"]
+        SohiniM --> VijeshV["Vijesh Vishwakarma"]
+
+        %% ---- Navid Mehrdad (no ICs in image) placeholder
+        NavidM --> NavidP1["<i>ICs TBD</i>"]
+
+        %% ---- Vikas Kumar (no ICs in image) placeholder
+        VikasK --> VikasP1["<i>ICs TBD</i>"]
+
+        %% ---- John Legelis (no ICs in image) placeholder
+        JohnL --> JohnP1["<i>ICs TBD</i>"]
+
+        %% ---- Manika Mehta (no ICs in image) placeholder
+        ManikaM --> ManikaP1["<i>ICs TBD</i>"]
+
+        %% ---- Atul Ranjan team
+        AtulR --> NayanaA2["Nayana Aher"]
+        AtulR --> DebankarB2["Debankar Banerjee"]
+        AtulR --> VinayakB2["Vinayak Bhat"]
+        AtulR --> PappuC2["Pappu Kumar Chaudhary"]
+        AtulR --> ShilpiM2["Shilpi Mittal"]
+        AtulR --> VaibhavP2["Vaibhav Pandey"]
+        AtulR --> SharadS2["Sharad Sharma"]
+
+        %% ---- Lito Santana (no ICs) placeholder
+        LitoS --> LitoP1["<i>ICs TBD</i>"]
+
+        %% ---- HuaSheng Su team
+        HuaS --> LesterG2["Lester Garcia Sierra"]
+        HuaS --> AvinashK2["Avinash Kasipathy"]
+        HuaS --> VijayantiK2["Vijayanti Kothandaraman"]
+        HuaS --> ManeshL2["Manesh Kumar Lohano"]
+        HuaS --> JhalakM2["Jhalak Mahansaria"]
+        HuaS --> JiyaS["Jiya Singh"]
+        HuaS --> SamarthU2["Samarth Urs"]
+
+    %%------------------  Styling  ------------------
     classDef lead fill:#eef6ff,stroke:#1f78b4,stroke-width:1px;
     classDef ic   fill:#ffffff,stroke:#bbbbbb,stroke-width:0.5px;
-    class SumK,BrenH,LakshmiP,ReneB,TarunB,ColinB lead
+    class TarunB,ReneB,SatyaD,BrenH,SumK,LakshmiP lead
 ```
 
 ### 2.2 Key Insights  
 - Organization spans **65 ICs and 8 managers** across US, India, and Germany.  
-- Expertise concentrated in Search, E-commerce merchandising, and Data-intelligence platforms.  
+- Deep expertise in Search, E-commerce merchandising, and Data-intelligence platforms.  
 - **21 open headcount** prioritized for infra and AI-driven search initiatives.  
 
 ---
