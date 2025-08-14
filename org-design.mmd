@@ -1,0 +1,34 @@
+graph TD
+  O[Agentforce Search Engineering Org - Org Design]
+
+  subgraph Search_Stack_Implementation
+    direction TB
+    S1[Testing framework including in prod quality testing]
+    S2[Catalog prep layer]
+    S3[Query preprocessing and semantic]
+    S4[Vector search layer]
+    S5[Lexical search layer]
+    S6[Merge results and reranking]
+    S7[Personalization components]
+    S8[Presentation layer merchant features push and bury]
+    S9[Production service observability]
+    S10[Infrastructure OpenSearch and Lucene]
+  end
+
+  subgraph Agentic_Work
+    direction TB
+    A1[Web experience presentation layer]
+    A2[LLM experience]
+    A3[Data pipelining layer]
+    A4[LLM evaluation layer]
+  end
+
+  subgraph Prototyping_Team
+    direction TB
+    P1[Tool team]
+    P2[ML team]
+  end
+
+  O --> S1
+  O --> A1
+  O --> P1
