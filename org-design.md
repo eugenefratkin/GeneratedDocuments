@@ -1,3 +1,6 @@
+# Org Design Diagram
+
+```mermaid
 graph TB
   O[Agentforce Search Engineering Org - Org Design]
 
@@ -32,3 +35,4 @@ graph TB
   O --> S1
   O --> A1
   O --> P1
+```
